@@ -1,5 +1,6 @@
 ifeq ($(PACKAGE_SET),dom0)
   RPM_SPEC_FILES := xen.spec
+  ARCH_BUILD_DIRS := archlinux
 
 else ifeq ($(PACKAGE_SET),vm)
   ARCH_BUILD_DIRS := archlinux

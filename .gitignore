@@ -6,3 +6,6 @@
 xen-?.?.?/
 deb/
 pkgs/
+*.tar.zst
+src/
+pkg/
